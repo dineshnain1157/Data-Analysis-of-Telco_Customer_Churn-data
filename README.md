@@ -1,38 +1,88 @@
-# Data-Analysis-of-Telco_Customer_Churn-data
-"Performed data cleaning, exploratory analysis, customer segmentation, churn prediction (Logistic Regression &amp; Random Forest), and calculated customer lifetime value (LTV) using the Telco Customer Churn dataset. Generated insights, visualizations, and retention strategies to support data-driven decision-making."
+# 🚢 Titanic Survival Analysis – End-to-End Data Analytics Project
 
-Project Title: Customer Churn Analysis and Prediction
+## 📌 Overview
+This project performs an end-to-end data analytics and machine learning
+analysis on the Titanic dataset to understand the factors that influenced
+passenger survival during the disaster.
 
-This project aims to analyze customer churn within a telecommunications company and create predictive models to identify customers at risk of leaving. The primary objective is to offer practical insights and recommendations to reduce churn and enhance customer retention.  
-You are required to complete four out of the six available tasks to finish the project.  
-Tasks
+The focus of this project is not only predictive modeling, but also
+**data-driven storytelling and decision-making**, making it suitable for
+open-source and research-oriented programs like Google Summer of Code (GSoC).
 
-1. Data Cleaning and Preprocessing
-Description: This task involves handling missing data and converting categorical variables into numerical formats using techniques like one-hot encoding.  
+---
 
-Skills: Data cleaning, handling missing data, and encoding categorical variables.  
+## 🎯 Objectives
+- Clean and preprocess real-world data
+- Perform exploratory data analysis (EDA)
+- Engineer meaningful features
+- Build and compare predictive models
+- Extract business and policy-level insights
 
-2. Exploratory Data Analysis (EDA)
-Description: This task requires you to calculate and visualize the churn rate, explore customer demographics, analyze customer tenure, and investigate the relationship between churn and different contract types or payment methods.  
+---
 
-Skills: Statistical analysis, data visualization, and the ability to interpret data patterns.  
+## 📂 Project Structure
+01_data_cleaning_preprocessing.ipynb 
+├── 02_exploratory_data_analysis.ipynb 
+├── 03_modeling_prediction.ipynb 
+├── 04_business_insights_strategy.ipynb 
+├── cleaned_titanic_data.csv 
+└── README.md
 
-3. Customer Segmentation
-Description: This task involves segmenting customers based on their tenure, monthly charges, and contract type, then analyzing the churn rates across these segments.  
+---
 
-Skills: Customer segmentation methods (e.g., RFM analysis) and data interpretation.  
+## 🛠 Tools & Technologies
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Machine Learning:** Scikit-learn  
+- **Models:** Logistic Regression, Random Forest  
+- **Version Control:** Git & GitHub  
 
-4. Churn Prediction Model
-Description: You will develop a churn prediction model using machine learning algorithms like logistic regression. The model's performance will be evaluated using metrics like accuracy, precision, and recall.  
+---
 
-Skills: Machine learning, programming (Python or R), and knowledge of evaluation metrics.  
+## 🔍 Project Workflow
 
-5. Customer Retention Strategies
-Description: The goal is to propose data-driven strategies to reduce churn by identifying key factors that influence it and suggesting actionable steps. You will also need to calculate the customer lifetime value (LTV) and identify high-value customers who are at risk of churning.  
+### 1️⃣ Data Cleaning & Preprocessing
+- Removed irrelevant features
+- Handled missing values using statistical methods
+- Encoded categorical variables
+- Prepared a clean dataset for analysis
 
-Skills: Business acumen, knowledge of customer retention strategies, and proficiency in tools for customer segmentation and analysis.  
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Survival analysis by gender, class, age, and fare
+- Feature relationships visualized with plots
+- Identification of high-risk passenger groups
 
-6. Visualizations
-Description: This task focuses on creating various visualizations such as box plots, violin plots, and pair plots to gain deeper insights from the data.  
+### 3️⃣ Modeling & Prediction
+- Logistic Regression used as a baseline model
+- Random Forest used to capture non-linear patterns
+- Model comparison based on accuracy
+- Feature importance analysis for interpretability
 
-Skills: Data visualization using tools like Matplotlib, Seaborn, or Tableau, and the ability to convey complex information visually.
+### 4️⃣ Business Insights & Strategy
+- Identified high-risk and low-risk passenger profiles
+- Highlighted socio-economic influence on survival
+- Proposed data-driven safety and evacuation strategies
+
+---
+
+## 📊 Key Insights
+- Females and first-class passengers had significantly higher survival rates
+- Fare and socio-economic status strongly influenced survival
+- Small family groups survived more than solo or large groups
+- Random Forest outperformed Logistic Regression
+
+---
+
+## 🧠 Conclusion
+This project demonstrates how data analytics and machine learning can be used
+to extract meaningful insights from historical data and support
+decision-making in critical scenarios.
+
+The structured workflow, clean pipeline, and interpretability make this
+project suitable for open-source contributions and GSoC-style research work.
+
+---
+
+## 👤 Author
+**Dinesh Nain**  
+GitHub: https://github.com/dineshnain1157
